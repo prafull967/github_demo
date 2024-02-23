@@ -9,7 +9,8 @@
 name: GitHub Actions Demo - Feb batch (Java CI with Maven)
 
 on:
-  push
+  push:
+    branches: dev
 jobs:
   build:
 
